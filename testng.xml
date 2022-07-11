@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="extent Report my store">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.TestListeners" />
+	</listeners>
+
+
+	<test name="my store">
+		<classes>
+			
+			<class name="com.mystore.testcases.AccountCreationPageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
